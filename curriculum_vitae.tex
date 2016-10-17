@@ -1,0 +1,215 @@
+% LaTeX file for resume
+% This file uses the resume document class (res.cls)
+\documentclass[margin]{res}
+% the margin option causes section titles to appear to the left of body text
+%\textwidth=5.2in % increase textwidth to get smaller right margin 5.2
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font
+\textheight = 10in
+\topmargin=-0.5in
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+
+\usepackage{hyperref}
+\usepackage{xcolor}
+\definecolor{dark_grey}{HTML}{101010}
+\definecolor{link_grey}{HTML}{0080d0}%648aa7
+\color{dark_grey}
+
+\makeatletter
+\newcommand*{\rom}[1]{\expandafter\@slowromancap\romannumeral #1@}
+\makeatother
+
+
+\begin{document}
+
+
+%\name{ \quad Connor R. Walsh\\  connorrobinsonwalsh@gmail.com\\ \quad \quad \quad+1-856-266-5463}
+%
+%
+%\address{{\bf Permanent Address} \\ 525 Kings Highway \\ Moorestown, NJ 08057}
+%\address{{\bf Present Address} \\ 2014 So. 15th St., Apt \#3 \\ Philadelphia, PA 19145}
+
+\name{
+\textbf{ \quad \quad \quad \quad \quad \quad \quad  \quad {\large Connor R. Walsh}}\\
+%\quad \quad740 Broughton Street, Apt. 3 $\|$ Pittsburgh, PA 15213\\ \emph{\href{mailto:connorw@andrew.cmu.edu}{\textcolor{link_grey}{connorw@andrew.cmu.edu}}} $\|$ \href{http://www.connorwalsh.net}{\textcolor{link_grey}{connorwalsh.net}} $\|$ +1-856-266-5463\\
+\quad \quad \quad \quad \quad \quad \quad \quad111 Hart Street $\|$ Brooklyn, NY 11206\\ \emph{\href{mailto:c@polygon.pizza}{\textcolor{link_grey}{c@polygon.pizza}}} $\|$ \href{http://polygon.pizza}{\textcolor{link_grey}{polygon.pizza}} $\|$ \href{http://www.github.com/connorwalsh}{\textcolor{link_grey}{github.com/connorwalsh}} $\|$ +1.856.266.5463\\
+--------------------------------------------------------------------------------------------------------
+}
+
+
+\begin{resume}
+
+\section{Research \\ Interests}
+Artificial intelligence \& computational cognitive modeling, particularly multimodal \\ learning, internal representation,  and inductive transfer in neural networks.
+
+
+\section{Education}
+\textbf{Carnegie Mellon University}, Pittsburgh, PA\\
+M.S. in Electrical and Computer Engineering \hfill May 2015\\
+Eta Kappa Nu, \emph{IEEE} Honor Society (HKN), Member \\
+GPA: 3.70/4.00 \vspace{5pt}\\
+\textbf{Rutgers University}, New Brunswick, NJ\\
+B.S. \textbf{Major}: Physical Oceanography \textbf{Minor}: Mathematics  \hfill May 2012\\
+Awarded Honors for Academic Achievement \& Research Excellence\\
+GPA: 3.21/4.00
+\vspace{-10pt}
+
+\section{Relevant Coursework}
+Artificial Intelligence, Machine Learning, Computer Vision, Language \& Statistics, \\
+Neural Signal Processing, Calculus \rom{1}-\rom{5}, Complex Variables, Linear Algebra
+
+
+\section{Professional Experience}
+{\bf Software Engineer,} \emph{Uplevel Security}, New York, NY\\
+\hfill \emph{September 2015 - }
+\begin{itemize} \itemsep -2pt
+\item As 1\textsuperscript{st} engineer, contributed to core product \& ontological design in addition to \\ building systems critical for ingesting, processing, \& analyzing cybersecurity data
+\item Led R\&D efforts in machine learning applied to relational structured data and \\
+developed algorithms for predicting latent features and anomalous network activity
+\end{itemize}
+\vspace{-10pt}
+
+{\bf Contract Researcher,} \textit{Theiss Research}, La Jolla, CA\\ \hfill
+\emph{September 2011 - December 2013}
+\begin{itemize} \itemsep -2pt %reduce space between items
+\item Directed oceanographic research, analysis, and preparation for publication
+\item Collaborated with researchers at the Institute of Marine Sciences, Zanzibar, \\ Tanzania and the Florida Institute of Technology
+\end{itemize}
+
+
+\section{Academic Experience}
+
+{\bf Teaching Assistant,} \emph{Networks in the Real World}, Carnegie Mellon University\\ \hfill \emph{January 2015 - May 2015}
+\begin{itemize} \itemsep -2pt
+\item Mentored student projects related to social/biological network analysis
+\item Designed course logistics, content, and oversaw student evaluation
+\end{itemize}
+\vspace{-10pt}
+{\bf Research Assistant,} \textit{System Level Design Group}, Carnegie Mellon University\\ \hfill \emph{June 2014 - December 2014}
+\begin{itemize} \itemsep -2pt
+\item Developed computational models to simulate social evolution in microbiomes
+\item Explored novel anti-virulence therapeutics via \emph{in silico} experimentation
+\end{itemize}
+\vspace{-10pt}
+
+
+{\bf Research Technician,} \textit{Institute of Marine and Coastal Sciences}, Rutgers University\\ \hfill  \emph{June - August 2012}
+\begin{itemize} \itemsep -2pt %reduce space between items
+\item Developed software for turbulent flow particle tracking experiments
+\end{itemize}
+\vspace{-10pt}
+
+
+{\bf Research Fellow,} \textit{Institute of Marine Sciences}, University of Dar es Salaam, Tanzania\\
+\emph{May 2011- August 2011}
+\begin{itemize} \itemsep -2pt
+\item Selected as one of four students funded by NSF/OISE IRES
+                % \item Collected and analyzed data for validation of a regional ocean model aimed at elucidating seasonal oceanographic patterns in the Zanzibar channel
+                 \item Performed empirical and analytic research developing a regional oceanographic model
+                 \item Developed and performed a self-formulated study on non-linear tidal dynamics
+ \end{itemize}
+
+
+ \section{Course \\ Projects}
+        	{\bf Machine Teaching Effort/Gains Under Complexity,} \emph{Artificial Intelligence, CMU}\\ \hfill
+        	\emph{January 2015 - May 2015}
+        	\begin{itemize} \itemsep -2pt
+        		\item Implemented a teaching algorithm designed for inverse reinforcement learners
+        		\item Determined the costs and benefits of teaching under varying task complexities
+        	\end{itemize}
+        	\vspace{-10pt}
+
+        	{\bf BSbot: Detecting Fraudulent Physics Abstracts,} \emph{Machine Learning, CMU}\\ \hfill   		\emph{September 2014- December 2014}
+                \begin{itemize} \itemsep -2pt
+                 \item Designed an accurate discriminative classifier to identify computer generated text
+                 \item Proposed a novel feature selection algorithm derived from word Hamming distances
+        	 \end{itemize}
+            \vspace{-10pt}
+
+
+            \end{resume}
+
+\newpage
+\name{
+\textbf{ \quad \quad \quad \quad \quad \quad \quad  \quad {\large Connor R. Walsh}}\\
+%\quad \quad740 Broughton Street, Apt. 3 $\|$ Pittsburgh, PA 15213\\ \emph{\href{mailto:connorw@andrew.cmu.edu}{\textcolor{link_grey}{connorw@andrew.cmu.edu}}} $\|$ \href{http://www.connorwalsh.net}{\textcolor{link_grey}{connorwalsh.net}} $\|$ +1-856-266-5463\\
+\quad \quad \quad \quad \quad \quad \quad \quad111 Hart Street $\|$ Brooklyn, NY 11206\\ \emph{\href{mailto:c@polygon.pizza}{\textcolor{link_grey}{c@polygon.pizza}}} $\|$ \href{http://polygon.pizza}{\textcolor{link_grey}{polygon.pizza}} $\|$ \href{http://www.github.com/connorwalsh}{\textcolor{link_grey}{github.com/connorwalsh}} $\|$ +1.856.266.5463\\
+--------------------------------------------------------------------------------------------------------
+}
+
+\begin{resume}
+\vspace{10pt}
+\section{Publications \& Presentations}
+G. Wei, C. Lo, \textbf{C. Walsh}, N. L. Hiller, and R. Marculescu. In Silico Evaluation of the Impacts of Quorum Sensing Inhibition (QSI) on Strain Competition and Development of QSI Resistance, \textit{Nature}, 6(10):35136, 2016.
+ \vspace{-4pt}
+\\
+\\
+G. Wei, \textbf{C. Walsh}, I. Cazan, and R. Marculescu. Molecular Tweeting: Unveiling the Social Network behind Heterogeneous Bacteria Populations, \textit{Proceedings of the 6th ACM Conference on Bioinformatics, Computational Biology, and Health Informatics}, 366-375, 2015.
+ \vspace{-4pt}
+\\
+\\
+J. Zavala-Garay, J. Theiss, M. Moulton, \textbf{C. Walsh}, R. van Woesik, C. G. Mayorga-Adame, M. Garc\'ia-Reyes, D. S. Mukaka, K. Whilden, and Y. W. Shagude. On the Dynamics of the Zanzibar Channel, \textit{Journal of Geophysical Research}, 120(9):6091-6113, 2015.
+ \vspace{-4pt}
+\\
+\\
+\textbf{C. Walsh}, J. Zavala-Garay, D. S. Mukaka, J. Theiss, and K. Zaba. Tidal Dynamics of the Zanzibar Channel in comparison with a regional model, \textit{The 11th American Geophysical Union Fall Meeting}, San Francisco, Poster Session 2011.
+
+
+\section{Computer \\ Languages}
+Python, Go, Javascript (ES6), \LaTeX, C, MATLAB        \hfill (Fluent)\\
+C++, Java, ELisp, x86 assembly    \hfill (Prior Experience)\\
+Clojure, Haskell, SuperCollider   \hfill (Learning)
+
+\section{Software \\ Tools}
+Emacs, Git, IntelliJ   \hfill(Development)\\
+SciPy, NumPy, Pandas, Matplotlib, SciKit, Jupyter, TensorFlow \hfill(Scientific)\\
+RabbitMQ, Docker, Neo4J, RethinkDB, Redis, MariaDB  \hfill(Backend)\\
+React, GraphQL, Webpack, Babel  \hfill(Frontend)
+
+
+\section{Volunteer \\ Work}
+{\bf Computer Science Teacher,} \emph{ScriptEd}, Brooklyn, NY\\ \hfill
+\emph{September 2016 - June 2017}
+\begin{itemize} \itemsep -2pt
+\item Co-Taught \emph{Programming Fundamentals} twice a week in an inner-city high school classroom
+\item Delivered lectures, developed lesson plans, and evaluated students' progress
+  \item Worked closely with each student individually, helping them feel empowered while learning
+  \end{itemize}
+
+{\bf Guest Speaker,} \emph{Encountering the Unseen: Puppet-Actualized Lectures on Contemporary Topics in Microbiology}, Phipps Conservatory, Pittsburgh, PA\\ \hfill
+  \emph{November 2014}
+\begin{itemize} \itemsep -2pt
+  \item Delivered lecture on hacking pathogen social networks through computational modeling
+  \item Collaborated with visual artists to transform slide-based content into a live puppet show
+\end{itemize}
+
+{\bf Guest Speaker,} \emph{S.T.E.M. Career Day}, W. Allen Middle School, Moorestown, NJ \\    \hfill \emph{March 2012}
+\begin{itemize} \itemsep -2pt
+\item Prepared and presented two forty-five minute presentations on fluid dynamics \& modeling
+  \item Illustrated the  concept of density stratification with interactive flow tank demonstrations
+            % \item Engaged students with hands on demonstrations and learning activities
+	     \end{itemize}
+
+{\bf Eco-Farmer,} \emph{Sadhana Forest}, Tamil Nadu, India\\ \hfill   		\emph{May 2008 - July 2008}
+               \begin{itemize} \itemsep -2pt
+                \item Lived and worked on a sustainable, vegan farming community
+                \item Participated in reforestation, water conservation, and community building projects
+		 \end{itemize}
+
+
+
+\section{$\mathbf{N+1}$ \\ Interests}
+{\bf Music,} play piano $+$ drums; released 6 full length albums; toured with bands; scored films \\
+{\bf Art \& Writing,} draw comics; write short fiction; (poorly) paint portraits \\
+
+\end{resume}
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
